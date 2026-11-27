@@ -24,4 +24,6 @@ public:
     bool empty() const { return top_ == nullptr; }
     int size() const { return size_; }
     void clear() { T tmp; while (pop(tmp)) {} }
+
+    return 0;
 };

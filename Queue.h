@@ -35,4 +35,6 @@ public:
     int size() const { return size_; }
     bool empty() const { return size_ == 0; }
     void clear() { head_ = 0; size_ = 0; }
+
+    return 0;
 };
